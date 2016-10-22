@@ -1,8 +1,8 @@
-var toArray = function(a){return [].concat.apply([],a);};
-module.exports = function(){
+module.exports = (function(){
     //job counter for pretty print
     var job_c = 0;
     var job_sep = ' ';
+    var toArray = function(a){return [].concat.apply([],a);};
 
     var getDeep = function(){
         job_c = Math.max(0,job_c);
@@ -40,4 +40,4 @@ module.exports = function(){
         start:jobStart,
         end:jobEnd
     };
-};
+})();

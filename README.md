@@ -1,4 +1,17 @@
-var jobber = require('./index');
+Jobber
+---
+A simple job log pretty printer.
+
+Setup
+---
+```
+npm install
+```
+
+Usage
+---
+```
+var jobber = require('jobber');
 
 var myJobA = function () {
     jobber.start('myJobA');
@@ -28,3 +41,11 @@ var myFactJob = function (n) {
 myJobA();
 myJobB();
 myFactJob(10);
+```
+
+Run Test
+---
+
+```
+npm run-script test
+```
