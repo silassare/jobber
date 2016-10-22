@@ -1,0 +1,17 @@
+{
+  "name": "jobber-log",
+  "version": "1.0.0",
+  "description": "A simple job log pretty printer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "pretty",
+    "job"
+  ],
+  "author": "Sare Emile Silas (silo)",
+  "license": "ISC"
+}
