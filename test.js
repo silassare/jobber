@@ -20,7 +20,7 @@ var myFactJob = function (n) {
     jobber.start('myFactJob');
     if (n<0) throw 'n must be positive';
     var f = n<=1? 1:n*myFactJob(n-1)
-    jobber.log('!n:!%d = %d',n,f);
+    jobber.log('!%d = %d',n,f);
     jobber.end('myJobA');
     return f;
 };
