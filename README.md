@@ -2,10 +2,10 @@ Jobber
 ---
 A simple job log pretty printer.
 
-Setup
+Setup with npm
 ---
 ```
-npm install
+npm install jobber
 ```
 
 Usage
