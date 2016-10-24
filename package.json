@@ -6,12 +6,20 @@
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Silo229/jobber.git"
+  },
   "keywords": [
+    "job",
     "console",
     "log",
-    "pretty",
-    "job"
+    "pretty"
   ],
-  "author": "Sare Emile Silas (silo)",
-  "license": "ISC"
+  "author": "Emile Silas Sare (emile.silas@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silo229/jobber/issues"
+  },
+  "homepage": "https://github.com/Silo229/jobber#readme"
 }
