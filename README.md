@@ -10,7 +10,7 @@ npm install jobber
 
 Usage
 ---
-```
+```javascript
 var jobber = require('jobber');
 
 var myJobA = function () {
