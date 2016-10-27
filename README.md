@@ -10,7 +10,7 @@ npm install jobber
 
 Usage
 ---
-```
+```javascript
 var jobber = require('jobber');
 
 var myJobA = function () {
@@ -41,6 +41,56 @@ var myFactJob = function (n) {
 myJobA();
 myJobB();
 myFactJob(10);
+```
+Output
+---
+```
+-----> myJobA
+ A:my log 1
+  -----> myJobB
+   B:my log 1
+   B:my log 2
+  <----- myJobB
+  -----> myJobB
+   B:my log 1
+   B:my log 2
+  <----- myJobB
+ A:my log 2
+<----- myJobA
+-----> myJobB
+ B:my log 1
+ B:my log 2
+<----- myJobB
+-----> myFactJob
+  -----> myFactJob
+    -----> myFactJob
+      -----> myFactJob
+        -----> myFactJob
+          -----> myFactJob
+            -----> myFactJob
+              -----> myFactJob
+                -----> myFactJob
+                  -----> myFactJob
+                   !1 = 1
+                  <----- myJobA
+                 !2 = 2
+                <----- myJobA
+               !3 = 6
+              <----- myJobA
+             !4 = 24
+            <----- myJobA
+           !5 = 120
+          <----- myJobA
+         !6 = 720
+        <----- myJobA
+       !7 = 5040
+      <----- myJobA
+     !8 = 40320
+    <----- myJobA
+   !9 = 362880
+  <----- myJobA
+ !10 = 3628800
+<----- myJobA
 ```
 
 Run Test
