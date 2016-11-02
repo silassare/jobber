@@ -2,6 +2,8 @@ Jobber
 ---
 A simple job log pretty printer.
 
+[![NPM](https://nodei.co/npm/jobber.png?downloads=true)](https://www.npmjs.com/package/jobber)
+
 Setup with npm
 ---
 ```
