@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Silo229/jobber.git"
+    "url": "git+ssh://git@github.com/silassare/jobber.git"
   },
   "keywords": [
     "job",
@@ -19,7 +19,7 @@
   "author": "Emile Silas Sare (emile.silas@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Silo229/jobber/issues"
+    "url": "https://github.com/silassare/jobber/issues"
   },
-  "homepage": "https://github.com/Silo229/jobber#readme"
+  "homepage": "https://github.com/silassare/jobber#readme"
 }
